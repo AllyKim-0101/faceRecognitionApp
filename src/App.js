@@ -48,6 +48,16 @@ class App extends Component {
     }
   }
 
+  //to connent frontend and backend
+  // componentDidMount() {
+  //   fetch('http://localhost:3001/')
+  //     .then(response => response.json())
+  //     .then(data => console.log(data))
+  // }
+
+
+
+
 
   loadUser = (data) => {
     this.setState({
@@ -60,6 +70,10 @@ class App extends Component {
       }
     })
   }
+
+
+
+
 
 
   calculateFaceLocation = (data) => {
